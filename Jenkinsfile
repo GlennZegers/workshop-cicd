@@ -9,10 +9,10 @@ pipeline {
             }
             steps {
                 dir('code/frontend'){
-                    sh 'npm run install'
+                    sh 'npm install'
                 }     
                 dir('code/backend'){
-                    sh 'npm run install'
+                    sh 'npm install'
                 }  
             }
         }
